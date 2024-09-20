@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="app.css" />
+  <title>iPhone UI</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="leftside_btns">
+      <div class="switch_btn"></div>
+      <div class="volumeup_btn"></div>
+      <div class="volumedown_btn"></div>
+    </div>
+    <div class="power_btn"></div>
+    <div class="sensors">
+      <div class="speaker-grille"></div>
+      <div class="camera"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+    </div>
+    <div class="face">
+      <div class="toolbar-upper">
+        <div id="local-time"></div>
+        <div class="icons">
+          <img src="https://raw.githubusercontent.com/TuruuDo/iphone_stopwatch/main/cellularbars.png" alt="Cellular Bars" />
+          <img src="https://raw.githubusercontent.com/TuruuDo/iphone_stopwatch/main/wifi.png" alt="WiFi" />
+          <img src="https://raw.githubusercontent.com/TuruuDo/iphone_stopwatch/main/battery.75percent.png" alt="Battery" />
+        </div>
+      </div>
+      <div class="stopwatch">
+        <div class="timer">
+          <div id="screen1" class="screen">
+            <h1>00:00.00</h1>
+          </div>
+          <div id="screen2" class="screen">
+            <div class="min_clock">
+              <div class="timerInAnalog">
+                <h1>00:00.00</h1>
+              </div>
+              <div class="half_hour_clock">
+                <span class="hhc_hand_div1">
+                  <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+                </span>
+                <span class="hhc_inner_cover"></span>
+                <span class="hhc_hand_div2">
+                  </i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+                </span>
+                <span class="hhc_outer_cover"></span>
+                <div class="hhc_ns">
+                  <b>5</b>
+                  <b>10</b>
+                  <b>15</b>
+                  <b>20</b>
+                  <b>25</b>
+                  <b>30</b>
+                </div>
+                <span class="hhc_pin"></span>
+                <span class="hhc_hand"></span>
+              </div>
+
+              <span class="mc_hand_div1">
+                <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+                <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+                <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+                <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+              </span>
+
+              <span class="mc_inner_cover"></span>
+              <span class="mc_hand_div2">
+                <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+              </span>
+              <span class="mc_outer_cover"></span>
+              <div class="mc_ns">
+                <b>5</b><b>10</b><b>15</b><b>20</b><b>25</b><b>30</b><b>35</b><b>40</b><b>45</b><b>50</b><b>55</b><b>60</b>
+              </div>
+              <span class="mc_pin"></span>
+              <span class="mc_hand1"></span>
+              <span class="mc_hand2"></span>
+              <span class="mc_hand1_lap hide"></span>
+              <span class="mc_hand2_lap hide"></span>
+            </div>
+          </div>
+        </div>
+        <div class="controls">
+          <div class="toggle">
+            <button class="reset-btn">Reset</button>
+            <button class="lap-btn">Lap</button>
+          </div>
+          <div class="slider"></div>
+          <div class="toggle">
+            <button class="start-btn">Start</button>
+            <button class="stop-btn">Stop</button>
+          </div>
+        </div>
+        <div class="tracker-wrapper">
+          <div class="tracker"></div>
+        </div>
+      </div>
+      <div class="toolbar-lower">
+        <div class="tl-item">
+          <img src="https://raw.githubusercontent.com/TuruuDo/iphone_stopwatch/main/globe.png" alt="World Clock" />
+          <p>World Clock</p>
+        </div>
+        <div class="tl-item">
+          <img src="https://raw.githubusercontent.com/TuruuDo/iphone_stopwatch/main/alarm.fill.png" alt="Alarms">
+          <p>Alarms</p>
+        </div>
+        <div class="selected tl-item">
+          <img src="https://raw.githubusercontent.com/TuruuDo/iphone_stopwatch/main/stopwatch.fill.png" alt="Stopwatch" />
+          <p>Stopwatch</p>
+        </div>
+        <div class="tl-item">
+          <img src="https://raw.githubusercontent.com/TuruuDo/iphone_stopwatch/main/timer.png" alt="Timers" />
+          <p>Timers</p>
+        </div>
+      </div>
+      <div class="whitebar"></div>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
