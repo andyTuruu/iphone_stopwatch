@@ -22,15 +22,34 @@ To set up the project locally:
   - Locate the index.html file in the project directory.
   - Go to your code editor and open it with preferred web browser.
 
-Or you can go [here](https://codepen.io/TuruuDo/pen/VwoZPeg) if you want to see what it does quickly. 
+Or you can go to [Codepen](https://codepen.io/TuruuDo/pen/VwoZPeg) if you want to see quickly what it does without installing. 
 
 ## Usage 
 1. Starting the stopwatch:
 Click the "Start" button to begin timing.
+![Stopwatch screenshot1](./descriptive_imgs/Screenshot1.png)
+
+
 2. Recording laps:
 While the stopwatch is running, click the "Lap" button to record the current time.
+
+![Stopwatch screenshot1](./descriptive_imgs/Screenshot2.png)
+
+![Stopwatch screenshot1](./descriptive_imgs/Screenshot3.png)
+
+![Stopwatch screenshot1](./descriptive_imgs/Screenshot4.png)
+
 3. Stopping the stopwatch:
 Click the "Stop" button to pause the timer.
+
+![Stopwatch screenshot1](./descriptive_imgs/Screenshot5.png)
+
+![Stopwatch screenshot1](./descriptive_imgs/Screenshot6.png)
+
 4. Resetting:
-Click the "Reset' button to clear the timer and all recorded laps. 
+Click the "Reset' button to clear the timer and all recorded laps.
+
+![Stopwatch screenshot1](./descriptive_imgs/Screenshot7.png)
+
+![Stopwatch screenshot1](./descriptive_imgs/Screenshot8.png)
   
