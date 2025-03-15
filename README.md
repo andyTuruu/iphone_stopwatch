@@ -1,7 +1,4 @@
 # iPhone Stopwatch Imitation 
-An imitation of the iPhone's stopwatch feature, built using HTML, CSS, and Javascript. 
-
-## Description
 This project replicates the appearance and functionality of the iPhone's stopwatch. It provides a user-friendly interface that allows users to start, stop, and reset the timer, as well
 as record lap times. 
 
